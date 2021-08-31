@@ -70,12 +70,8 @@ def visualizacao(escolhas):
         time.sleep(2)
 
 
-def main():
-    metrics()
+metrics()
 
-
-if __name__ == "__main__":
-    main()
 
 # Grupo 6 - SafeLog
 # Amanda         RA: 02211001
