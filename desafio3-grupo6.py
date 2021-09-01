@@ -66,7 +66,7 @@ def visualizacao(escolhas):
         if(1 in escolhas and psutil.cpu_freq().current*1.21 / psutil.cpu_freq().max > 1.2):
             print(
                 "\n\n\tCPU rodando em overclock com frequência mais de 20% maior que o máximo, \n\t\t\t\t\tPERIGO")
-        print("----------------------------------------------------------------------")
+        print("-"*70)
         time.sleep(2)
 
 
